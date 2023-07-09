@@ -81,7 +81,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "Wh52Chestnut"
 facebook:
   username               :
   app_id                 :
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Chathuri Jayaweera"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/website_pic.jpg"
   bio              : "Graduate Teaching/Research Assistant\n PhD candiate in Computer Science\n University of Florida"
   location         : "Gainesville, FL"
   email            :
