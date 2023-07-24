@@ -4,6 +4,11 @@ title: "Teaching"
 author_profile: true
 layout: single
 ---
+<style>
+td, th {
+   border: none!important;
+}
+</style>
 
 - Teaching Assistant: | CAP4641 Natural Language Processing 
                       | CISE, University of Flroida
