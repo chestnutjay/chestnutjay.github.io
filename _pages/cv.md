@@ -6,4 +6,4 @@ layout: single
 ---
 
 
- <iframe src="https://chestnutjay.github.io/ChathuriAcademicCV/cv.html" style="height:800px;width:1000px;border:none;" title="Chathuri Jayaweera CV"></iframe> 
+ <iframe src="https://chestnutjay.github.io/ChathuriAcademicCV/cv.html" style="height:2000px;width:1000px;border:none;" title="Chathuri Jayaweera CV"></iframe> 
