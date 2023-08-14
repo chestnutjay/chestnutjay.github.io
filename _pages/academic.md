@@ -15,7 +15,7 @@ td, th {
 
  <table>
  <tr>
-      <td><img src="/assets/images/UF_logo.png" width="100px">
+      <td><img src="/assets/images/UF_logo.jpg" width="100px">
       <br>
      </td>
       <td style="border:0px">
