@@ -1,6 +1,6 @@
 ---
 permalink: /academic/
-title: "Academic Experince"
+title: "Academic Experience"
 author_profile: true
 layout: single
 ---
