@@ -23,12 +23,12 @@ font-size: 0.875em;
 
 I am a PhD student at University of Florida under the supervision on Dr. Bonnie Dorr. My primary research focus is on exploring the usability of Abstract Meaning Representations (AMR). AMR is a representational formalism defined to represent the meaning of a text by presenting "Who did What to Whom". This formalism has been used in multiple complex Natural Language Processing tasks such as Summarization, Information Retrieval and Text generation. My effort is to study the possibility of using AMRs in sentiment analysis task in order to 
 build a more explainable pipeline for the said task.
-
-<span class="label NLP">Natural Language Processing</span>
-<span class="label XAI">Explainable AI</span>
-<span class="label ML">Machine Learning</span>
-<span class="label DS">Data Science</span>
-<!-- <span class="label other">Other</span>  -->
+<p>
+<span class="label custom-label animated label">Natural Language Processing</span>
+<span class="label custom-label animated label">Explainable AI</span>
+<span class="label custom-label animated label">Machine Learning</span>
+<span class="label custom-label animated label">Data Science</span>
+</p>
 
 <style>
     label {
@@ -36,8 +36,27 @@ build a more explainable pipeline for the said task.
   padding: 8px;
 }
 
-.NLP {background-color: #04AA6D;} /* Green */
-.XAI {background-color: #2196F3;} /* Blue */
-.ML {background-color: #ff9800;} /* Orange */
-.DS {background-color: #f44336;} /* Red */
+.custom-label {
+    height: 28px;
+    color: var(--label-text-color);
+    border-radius: 5px;
+    padding: 5px 15px;
+    background: #b60e4e var(--label-color);
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,0.5), 7px 7px 20px 0px rgba(0,0,0,0.1), 4px 4px 5px 0px rgba(0,0,0,0.1);
+    outline: none;
+    font-size: smaller;
+}
+animated_label {
+    border: none;
+    color: var(--label-text-color);
+    margin-bottom: 5px;
+}
+
+/* .NLP {background-color: #04AA6D;} /* Green */
+/* .XAI {background-color: #2196F3;} Blue */
+/* .ML {background-color: #ff9800;} Orange */
+/* .DS {background-color: #f44336;} Red */ 
 </style>
