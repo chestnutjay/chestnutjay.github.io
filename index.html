@@ -31,16 +31,22 @@ build a more explainable pipeline for the said task.
 </p>
 
 <style>
-    .label {
+    /* .label {
   color: #f0f0f0 var(--label-text-color);
   background: #b60e4e var(--label-color);
   padding: 8px;
-}
+} */
 
+.animated_label {
+    border: none;
+    color: #f0f0f0 var(--label-text-color);
+    margin-bottom: 5px;
+    font-size: smaller;
+}
 .custom-label {
     height: 28px;
     color: var(--label-text-color);
-    background: var(--label-color);
+    background: #b60e4e var(--label-color);
     border-radius: 5px;
     padding: 5px 15px;
     transition: all 0.3s ease;
@@ -50,12 +56,7 @@ build a more explainable pipeline for the said task.
     outline: none;
     font-size: smaller;
 }
-.animated_label {
-    border: none;
-    color: var(--label-text-color);
-    margin-bottom: 5px;
-    font-size: smaller;
-}
+
 
 
 /* .animated_label::after {
