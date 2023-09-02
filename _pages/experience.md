@@ -51,7 +51,7 @@ img {
 
 <table>
  <tr>
-      <td><img src="/assets/images/cogniuns_logo.png" width="100px" style= "border-radius:50%;boarder:5px solid #555;">
+      <td><img src="/assets/images/cognius_logo.png" width="100px" style= "border-radius:2%;border:4.5px solid #a69f9f;">
       <br>
      </td>
       <td style="border:0px">
@@ -61,6 +61,21 @@ img {
          Development of Intent Classification models for Conversational AI systems
          <br>
          Sep 2021 - Jun 2022
+      </td>
+  </tr>
+  <tr>
+      <td><img src="/assets/images/forestpin_logo.png" width="100px" style= "border-radius:2%;border:4.5px solid #a69f9f;">
+      <br>
+     </td>
+      <td style="border:0px">
+         <b> ML Research Intern </b>
+         Forestpin (Pvt.) Ltd., Sri Lanka
+         <br>
+         Building Sales Prediction models for Sales of supermarket 
+         <br>
+         outlets and implementing an Inventory management model 
+         <br>
+         June - Dec 2018
       </td>
   </tr>
 </table>
