@@ -9,6 +9,9 @@ layout: single
 td, th {
    border: none!important;
 }
+img {
+
+}
 </style>
  
 
@@ -48,7 +51,7 @@ td, th {
 
 <table>
  <tr>
-      <td><img src="/assets/images/cogniuns_logo.png" width="100px" border-radius="50%", boarder="5px solid #555">
+      <td><img src="/assets/images/cogniuns_logo.png" width="100px" style= "border-radius:50%;boarder:5px solid #555;">
       <br>
      </td>
       <td style="border:0px">
