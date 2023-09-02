@@ -48,11 +48,11 @@ td, th {
 
 <table>
  <tr>
-      <td><img src="/assets/images/cogniuns_logo.png" width="100px" border-radius=50%>
+      <td><img src="/assets/images/cogniuns_logo.png" width="100px" border-radius="50%">
       <br>
      </td>
       <td style="border:0px">
-         <b> AI Research Engineer </b>
+         <b> AI Research Engineer: </b>
          Cognius.ai, Singapore
          <br>
          Development of Intent Classification models for Conversational AI systems
