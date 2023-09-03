@@ -64,7 +64,7 @@ img {
       </td>
   </tr>
   <tr>
-      <td><img src="/assets/images/forestpin_logo.png" width="100px" style= "border-radius:2%;border:4.5px solid #a69f9f;">
+      <td><img src="/assets/images/forestpin_logo.png" width="100px">
       <br>
      </td>
       <td style="border:0px">
