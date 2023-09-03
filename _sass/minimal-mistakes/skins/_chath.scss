@@ -8,11 +8,11 @@ $text-color: #272727 !default;
 $muted-text-color: #91c591 !default;
 $primary-color: #0f501f !default;
 $border-color: mix(#fff, #0f501f, 75%) !default;
-$footer-background-color: #0f501f !default;
-$link-color: #0f501f !default;
+$footer-background-color: #440150 !default;
+$link-color: #9002a8 !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+$navicon-link-color-hover: mix(#9702b0, $text-color, 80%) !default;
 
 .page__footer {
   color: #fff !important; // override
