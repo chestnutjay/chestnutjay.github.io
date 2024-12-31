@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "chath"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chathuri Jayaweera | චතුරි ජයවීර"
+title                    : "Chathuri Jayaweera"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Chathuri Jayaweera"
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chathuri Jayaweera"
+  name             : "Chathuri | චතුරි"
   avatar           : "/assets/images/website_pic.jpg"
   bio              : "Graduate Teaching/Research Assistant\n PhD candiate in Computer Science\n University of Florida"
   location         : "Gainesville, FL"
