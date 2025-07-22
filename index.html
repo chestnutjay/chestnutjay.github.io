@@ -74,15 +74,15 @@ build a more explainable pipeline for the said task."
             <div class="news-date">November 02, 2024</div>
             <span class="news-badge badge-accepted">Accepted</span>
             <div class="news-title">
-                <a href="https://arxiv.org/abs/your-paper-id" target="_blank">Your Paper Title Here</a>
+                <a href="https://aclanthology.org/2024.fever-1.26/" target="_blank">AMREx: AMR for Explainable Fact Verification</a>
             </div>
-            <div class="news-venue">Accepted to ICLR 2025</div>
+            <div class="news-venue">Accepted to FEVER EMNLP 2024</div>
             <div class="news-description">
-                Brief description of your paper and its contributions.
+                We implement AMREx, an Abstract Meaning Representation (AMR)-based veracity prediction and explanation system for fact verification using a combination of Smatch, an AMR evaluation metric to measure meaning containment and textual similarity, and demonstrate its effectiveness in producing partially explainable justifications using two community standard fact verification datasets, FEVER and AVeriTeC.
             </div>
             <div class="news-links">
-                <a href="https://arxiv.org/abs/your-paper-id" class="news-link" target="_blank">📄 arXiv</a>
-                <a href="https://github.com/your-username/your-repo" class="news-link" target="_blank">💻 Code</a>
+                <a href="https://aclanthology.org/2024.fever-1.26/" class="news-link" target="_blank">📄 arXiv</a>
+                <!-- <a href="https://github.com/your-username/your-repo" class="news-link" target="_blank">💻 Code</a> -->
             </div>
         </div>
         
@@ -243,6 +243,45 @@ build a more explainable pipeline for the said task."
     background: #e2e8f0;
     color: #334155;
 }
+
+.animated_label {
+    border: none;
+    color: #f0f0f0;
+    margin-bottom: 5px;
+    font-size: smaller;
+}
+.custom-label {
+    height: 28px;
+    color: #f0f0f0;
+    /* background:  ; #b60e4e */
+    background: #8377D1;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,0.5), 7px 7px 20px 0px rgba(0,0,0,0.1), 4px 4px 5px 0px rgba(0,0,0,0.1);
+    outline: none;
+    font-size: smaller;
+}
+
+
+.animated_label::after {
+
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+
+}
+
   </style>
 
 
