@@ -31,6 +31,9 @@ build a more explainable pipeline for the said task."
 {% include feature_row type="center" %} -->
 "I am a PhD student at the University of Florida, working under the guidance of Dr. Bonnie Dorr. My research is primarily centered on Natural Language Inference (NLI), a field that explores the semantic relationships between a given premise and hypothesis. Specifically, I focus on identifying ambiguous premise-hypothesis pairs that allow for multiple valid interpretations and integrating these complexities into general NLI systems. Additionally, my work involves recognizing instances that require additional commonsense knowledge for precise inference and developing methods to generate and incorporate this knowledge, thereby enhancing the performance of NLI pipelines."
 
+
+
+
 <p>
 <span class="label custom-label animated_label">Natural Language Inference</span>
 <span class="label custom-label animated_label">Ambiguity in NLI</span>
@@ -38,7 +41,7 @@ build a more explainable pipeline for the said task."
 <span class="label custom-label animated_label">Abstract Meaning Representations</span>
 </p>
 
-<div class="news-section">
+<!-- <div class="news-section">
     <h1>News</h1>
 
     <div class="news-item">
@@ -56,10 +59,194 @@ build a more explainable pipeline for the said task."
         New paper on multi-lingual semantic role labeling projection<a href="https://link.springer.com/chapter/10.1007/978-3-031-70239-6_29" target="_blank">"Balancing Transparency and Accuracy: A Comparative Analysis of Rule-Based and Deep Learning Models in Political Bias Classification"</a> accepted by SICon workshop at EMNLP 2024.
       </div>  
 
-  </div>
+  </div> -->
+
+  <!-- Publications Newsfeed Section -->
+<section class="newsfeed-container">
+    <div class="newsfeed-header">
+        <h2>📚 Publication News</h2>
+        <p>Latest updates on my research publications</p>
+    </div>
+    
+    <div class="newsfeed-content" id="newsfeed">
+        <!-- Replace these with your actual publications -->
+        <div class="news-item">
+            <div class="news-date">November 02, 2024</div>
+            <span class="news-badge badge-accepted">Accepted</span>
+            <div class="news-title">
+                <a href="https://arxiv.org/abs/your-paper-id" target="_blank">Your Paper Title Here</a>
+            </div>
+            <div class="news-venue">Accepted to ICLR 2025</div>
+            <div class="news-description">
+                Brief description of your paper and its contributions.
+            </div>
+            <div class="news-links">
+                <a href="https://arxiv.org/abs/your-paper-id" class="news-link" target="_blank">📄 arXiv</a>
+                <a href="https://github.com/your-username/your-repo" class="news-link" target="_blank">💻 Code</a>
+            </div>
+        </div>
+        
+        <!-- Add more news items here -->
+        
+    </div>
+</section>
 
 
-<style>
+  <style>
+    /* Newsfeed Styles - Add to your existing CSS */
+.newsfeed-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.newsfeed-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.newsfeed-header h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.newsfeed-header p {
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
+
+.newsfeed-content {
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.newsfeed-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.newsfeed-content::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+.newsfeed-content::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+.news-item {
+    border-bottom: 1px solid #e2e8f0;
+    padding: 1.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.news-item:hover {
+    background-color: #f8fafc;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+
+.news-date {
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.news-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.badge-preprint {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.badge-accepted {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.badge-published {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.news-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.news-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.news-title a:hover {
+    color: #667eea;
+}
+
+.news-venue {
+    font-size: 0.9rem;
+    color: #475569;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+}
+
+.news-description {
+    font-size: 0.9rem;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
+.news-links {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.news-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.4rem 0.8rem;
+    background: #f1f5f9;
+    color: #475569;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.news-link:hover {
+    background: #e2e8f0;
+    color: #334155;
+}
+  </style>
+
+
+<!-- <style>
     /* .label {
   color: #f0f0f0 var(--label-text-color);
   background: #b60e4e var(--label-color);
@@ -135,4 +322,4 @@ build a more explainable pipeline for the said task."
       text-decoration: underline;
     }
 </style>
-
+ -->
