@@ -63,12 +63,20 @@ layout: single
 .talk-links a:hover {
   text-decoration: underline;
 }
+.talk-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.talk-card-link:hover .talk-title {
+  color: #2563eb;
+}
 </style>
-
 
 <div class="talks-grid">
   {% assign talks = site.talks | sort: 'date' | reverse %}
   {% for talk in talks %}
+  <a href="{{ talk.url }}" class="talk-card-link">
   <div class="talk-card">
     {% if talk.thumbnail %}
       <img src="{{ talk.thumbnail }}" alt="{{ talk.title }}" class="talk-thumbnail">
@@ -83,5 +91,6 @@ layout: single
       </p>
     </div>
   </div>
+  </a>
   {% endfor %}
 </div>
