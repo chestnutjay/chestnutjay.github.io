@@ -2,6 +2,49 @@
 layout: single
 ---
 
+<style>
+  .talk-links {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+
+  .talk-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        padding: 0.4rem 0.8rem;
+        background: #f1f5f9;
+        color: #475569;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        transition: all 0.2s ease;
+    }
+  
+  @media (max-width: 640px) {
+        .talk-links {
+            flex-direction: column;
+        }
+        
+        .talk-link {
+            justify-content: center;
+        }
+    }
+
+  .talk-links a {
+    /* color: #667eea; */
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .talk-links a:hover {
+    color: #667eea;
+    text-decoration: underline;
+  }
+</style>
+
 <article class="talk-page">
   <!-- <h1>{{ page.title }}</h1> -->
 
@@ -19,11 +62,13 @@ layout: single
     {{ content }}
   </div>
 
-  <p class="talk-links">
-    {% if page.slides %}<a href="{{ page.slides }}">Slides</a>{% endif %}
+  <div class="talk-links">
+  <p class="talk-link">
+    {% if page.slides %}<a href="{{ page.slides }}">🔖Slides</a>{% endif %}
     {% if page.video %}
       {% if page.slides %} | {% endif %}
-      <a href="{{ page.video }}">Video</a>
+      <a href="{{ page.video }}">📹Video</a>
     {% endif %}
   </p>
+  </div>
 </article>
