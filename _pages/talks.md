@@ -6,11 +6,16 @@ layout: collection
 ---
 <style>
 .talks-grid {
+  width: 100%;
+  max-width: 1200px;   /* controls horizontal spread */
+  margin: 2rem auto;  /* center the grid itself */
+}
+/* .talks-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
   margin-top: 1rem;
-}
+} */
 
 .talk-card {
   background: #fff;
@@ -69,7 +74,7 @@ layout: collection
   display: block;
 }
 .talk-card-link:hover .talk-title {
-  color: #2563eb;
+  color: #667eea;
 }
 </style>
 
