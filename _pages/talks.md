@@ -142,10 +142,12 @@ layout: collection
       <h3 class="talk-title">{{ talk.title }}</h3>
       <p class="talk-meta"><em>{{ talk.type }}</em> — {{ talk.event }}, {{ talk.location }} ({{ talk.date | date: "%B %Y" }})</p>
       <p class="talk-desc">{{ talk.content | strip_html | truncatewords: 40 }}</p>
-      <p class="talk-links">
+      <div class="talk-links">
+      <p class="talk-link">
         {% if talk.slides %}<a href="{{ talk.slides }}">Slides</a>{% endif %}
         {% if talk.video %}{% if talk.slides %} | {% endif %}<a href="{{ talk.video }}">Video</a>{% endif %}
       </p>
+      </div>
     </div>
   </div>
   </a>
