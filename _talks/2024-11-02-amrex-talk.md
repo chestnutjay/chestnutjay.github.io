@@ -1,6 +1,6 @@
 ---
 title: "AMREx: AMR for Explainable Fact Verification"
-event: "Seventh Fact Extraction and VERification Workshop (FEVER) - EMNLP 2024"
+event: "The seventh Fact Extraction and VERification Workshop (FEVER) - EMNLP 2024"
 location: "Miami, Florida, USA"
 date: 2024-11-02
 type: "Presentation"
