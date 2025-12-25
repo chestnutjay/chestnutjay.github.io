@@ -8,9 +8,14 @@ layout: collection
 
 .talks-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 320px);
+  grid-template-columns: repeat(auto-fit, 320px);
   gap: 1.5rem;
   justify-content: center;
+  width: 100%;
+}
+
+.page__content .talks-grid {
+  max-width: none;
 }
 
 /* .talks-grid {
@@ -91,6 +96,7 @@ layout: collection
   text-decoration: none;
   color: inherit;
   display: block;
+  width: auto;
 }
 .talk-card-link:hover .talk-title {
   color: #667eea;
