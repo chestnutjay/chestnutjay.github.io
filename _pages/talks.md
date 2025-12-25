@@ -6,23 +6,19 @@ layout: collection
 ---
 <style>
 
-.talks-grid {
+/* .talks-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
   gap: 1.5rem;
   justify-content: center;
   width: 100%;
-}
+} */
 
-.page__content .talks-grid {
-  max-width: none;
-}
-
-/* .talks-grid {
+.talks-grid {
   width: 100%;
   max-width: 1200px;
   margin: 2rem auto; 
-} */
+}
 
 
 /* .talks-grid {
@@ -84,7 +80,7 @@ layout: collection
 }
 
 .talk-links a {
-  color: #2563eb;
+  color: #667eea;
   text-decoration: none;
   font-weight: 500;
 }
