@@ -79,13 +79,44 @@ layout: collection
   color: #334155;
 }
 
+.talk-links {
+        display: flex;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+
+  .talk-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        padding: 0.4rem 0.8rem;
+        background: #f1f5f9;
+        color: #475569;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        transition: all 0.2s ease;
+    }
+  
+  @media (max-width: 640px) {
+        .talk-links {
+            flex-direction: column;
+        }
+        
+        .talk-link {
+            justify-content: center;
+        }
+    }
+
 .talk-links a {
-  color: #667eea;
+  /* color: #667eea; */
   text-decoration: none;
   font-weight: 500;
 }
 
 .talk-links a:hover {
+  color: #667eea;
   text-decoration: underline;
 }
 .talk-card-link {
