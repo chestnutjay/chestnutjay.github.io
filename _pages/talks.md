@@ -5,11 +5,20 @@ author_profile: true
 layout: collection
 ---
 <style>
+
 .talks-grid {
-  width: 100%;
-  max-width: 1200px;   /* controls horizontal spread */
-  margin: 2rem auto;  /* center the grid itself */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  gap: 1.5rem;
+  justify-content: center;
 }
+
+/* .talks-grid {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto; 
+} */
+
 /* .talks-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
