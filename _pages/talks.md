@@ -2,7 +2,7 @@
 permalink: /talks/
 title: "Presentations & Talks"
 author_profile: true
-layout: single
+layout: collection
 ---
 <style>
 .talks-grid {
