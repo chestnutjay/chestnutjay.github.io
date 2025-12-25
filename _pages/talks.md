@@ -79,6 +79,28 @@ layout: collection
   color: #334155;
 }
 
+.talk-type-badge {
+        display: inline-block;
+        padding: 0.25rem 0.75rem;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+.badge-presentation {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.badge-talk {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+
 .talk-links {
         display: flex;
         gap: 0.75rem;
@@ -140,7 +162,8 @@ layout: collection
     {% endif %}
     <div class="talk-content">
       <h3 class="talk-title">{{ talk.title }}</h3>
-      <p class="talk-meta"><em>{{ talk.type }}</em> — {{ talk.event }}, {{ talk.location }} ({{ talk.date | date: "%B %Y" }})</p>
+      <span class="talk-type-badge badge-presentation">{{talk.type}}</span>
+      <p class="talk-meta">{{ talk.event }}, {{ talk.location }} ({{ talk.date | date: "%B %Y" }})</p>
       <p class="talk-desc">{{ talk.content | strip_html | truncatewords: 40 }}</p>
       <div class="talk-links">
       <p class="talk-link">
