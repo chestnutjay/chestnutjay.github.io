@@ -4,7 +4,7 @@ event: "The seventh Fact Extraction and VERification Workshop (FEVER) - EMNLP 20
 location: "Miami, Florida, USA"
 date: 2024-11-02
 type: "Presentation"
-slides: "#"
+# slides: "#"
 video: https://underline.io/lecture/107030-amrex-amr-for-explainable-fact-verification
 layout: talk
 author_profile: true

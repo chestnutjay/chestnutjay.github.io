@@ -4,7 +4,7 @@ event: "The fourth Workshop on Perspectivist Approaches to NLP (NLPerspectives) 
 location: "Suzhou, China"
 date: 2025-11-08
 type: "Presentation"
-slides: "#"
+# slides: "#"
 video: https://underline.io/lecture/136995-from-disagreement-to-understanding-the-case-for-ambiguity-detection-in-nli
 layout: talk
 author_profile: true
