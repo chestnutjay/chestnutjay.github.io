@@ -144,8 +144,8 @@ layout: collection
       <p class="talk-desc">{{ talk.content | strip_html | truncatewords: 40 }}</p>
       <div class="talk-links">
       <p class="talk-link">
-        {% if talk.slides %}<a href="{{ talk.slides }}">Slides</a>{% endif %}
-        {% if talk.video %}{% if talk.slides %} | {% endif %}<a href="{{ talk.video }}">Video</a>{% endif %}
+        {% if talk.slides %}<a href="{{ talk.slides }}">🔖 Slides</a>{% endif %}
+        {% if talk.video %}{% if talk.slides %} | {% endif %}<a href="{{ talk.video }}">📹 Video</a>{% endif %}
       </p>
       </div>
     </div>
