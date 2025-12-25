@@ -19,6 +19,7 @@ layout: collection
   margin: 2rem auto; 
 } */
 
+
 /* .talks-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -32,9 +33,18 @@ layout: collection
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   overflow: hidden;
+  width: 320px;        /* optional but safe */
+  height: 360px;
+  display: flex;
+  flex-direction: column;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
-
+/* .talk-card {
+  width: 320px;     
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+} */
 .talk-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
