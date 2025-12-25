@@ -34,10 +34,10 @@ layout: collection
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   overflow: hidden;
-  width: 320px;        /* optional but safe */
-  height: 360px;
-  display: flex;
-  flex-direction: column;
+  /* width: 320px;        /* optional but safe */
+  /* height: 360px; */
+  /* display: flex; */
+  /* flex-direction: column; */ */
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 /* .talk-card {
